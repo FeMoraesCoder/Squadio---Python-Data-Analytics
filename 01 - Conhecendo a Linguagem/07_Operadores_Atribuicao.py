@@ -29,19 +29,24 @@ print(saldo)
 saldo += 500
 print(saldo)
 
+saldo = 500
 saldo -= 500
 print(saldo)
 
+saldo = 500
 saldo /= 100
 print(saldo)
 
-saldo //= 100
+saldo = 500
+saldo //= 10
 print(saldo)
 
-saldo **= 100
+saldo = 50
+saldo **= 2
 print(saldo)
 
-saldo *= 100
+saldo = 500
+saldo *= 2
 print(saldo)
 
 
