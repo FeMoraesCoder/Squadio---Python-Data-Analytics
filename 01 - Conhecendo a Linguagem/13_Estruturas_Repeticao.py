@@ -69,6 +69,8 @@ while opcao != 0:
         print('Sacando...')
     elif opcao == 2:
         print("Exibindo o extrato...")
+else:
+    print("Obrigado por usar nosso sistema!")
     
 # %%
 
@@ -79,5 +81,13 @@ while True:
         break
 
     print(numero)
+
+# %%
+for numero in range(100):
+
+    if numero == 12:
+        continue # aqui ele vai pular o 12, ou seja, vai mostrar todos no range de 0 a 99 menos o 12
+    
+    print(numero, end=" ")
 
 # %%
